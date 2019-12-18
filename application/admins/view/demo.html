@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <!--<meta charset="UTF-8">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <!--html5:或者！ 可以生成HTML5文档结构-->
+        <!--link:css,script:src -->
+        <p>1.生成带类样式的标签</p>
+        <!--p.info-->
+        <p class="info"></p>
+        <!--.red-->
+        <div class="red"></div>
+        <!--a:link-->
+        <a href="http://"></a>
+        <!--a:mail-->
+        <a href="mailto:"></a>
+        <!--同级，兄弟标签 h2.header+p.info -->
+        <h2 class="header"></h2>
+        <p class="info"></p>
+        <!--后代标签，也叫下线标签-->
+        <!--ul>li-->
+        <ul>
+            <li></li>
+        </ul>
+        <!--ul>li+li+li-->
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <!--生成当前标签的父级， h2>span^p.info-->
+        <h2><span></span></h2>
+        <p class="info"></p>
+        <!--生成标签的时候，同时创建内部的文本-->
+        <!-- {} -->
+        <!--a{PHP中文网}-->
+        <a href="">PHP中文网</a>
+        <!--p[title="这是一段说明文字"]-->
+        <p title="这是一段说明文字"></p>
+        <!--a[href="http://www.baidu.com"]{PHP中文网}-->
+        <a href="http://www.baidu.com">PHP中文网</a>
+        <!--重复生成功能：*-->
+        <!--ul>li*5-->
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <!--ul.list>li.item*8>a{导航}-->
+        <ul class="list">
+            <li class="item"><a href="">导航</a></li>
+            <li class="item"><a href="">导航</a></li>
+            <li class="item"><a href="">导航</a></li>
+            <li class="item"><a href="">导航</a></li>
+            <li class="item"><a href="">导航</a></li>
+            <li class="item"><a href="">导航</a></li>
+            <li class="item"><a href="">导航</a></li>
+            <li class="item"><a href="">导航</a></li>
+        </ul>
+
+        <!--给标签自动添加编号或排序：$,@-->
+        <!--ul.list>li.item*8>a{导航$}-->
+        <ul class="list">
+            <li class="item"><a href="">导航1</a></li>
+            <li class="item"><a href="">导航2</a></li>
+            <li class="item"><a href="">导航3</a></li>
+            <li class="item"><a href="">导航4</a></li>
+            <li class="item"><a href="">导航5</a></li>
+            <li class="item"><a href="">导航6</a></li>
+            <li class="item"><a href="">导航7</a></li>
+            <li class="item"><a href="">导航8</a></li>
+        </ul>
+        <!--ul.list>li.item*8>a{导航$$}-->
+        <ul class="list">
+            <li class="item"><a href="">导航01</a></li>
+            <li class="item"><a href="">导航02</a></li>
+            <li class="item"><a href="">导航03</a></li>
+            <li class="item"><a href="">导航04</a></li>
+            <li class="item"><a href="">导航05</a></li>
+            <li class="item"><a href="">导航06</a></li>
+            <li class="item"><a href="">导航07</a></li>
+            <li class="item"><a href="">导航08</a></li>
+        </ul>
+        ul.list>li.item*8>a{导航$$@-}
+        <ul class="list">
+            <li class="item"><a href="">导航01</a></li>
+            <li class="item"><a href="">导航00</a></li>
+            <li class="item"><a href="">导航-1</a></li>
+            <li class="item"><a href="">导航-2</a></li>
+            <li class="item"><a href="">导航-3</a></li>
+            <li class="item"><a href="">导航-4</a></li>
+            <li class="item"><a href="">导航-5</a></li>
+            <li class="item"><a href="">导航-6</a></li>
+        </ul>
+        ul.list>li.item*8>a{导航$$@100}
+        <ul class="list">
+            <li class="item"><a href="">导航100</a></li>
+            <li class="item"><a href="">导航101</a></li>
+            <li class="item"><a href="">导航102</a></li>
+            <li class="item"><a href="">导航103</a></li>
+            <li class="item"><a href="">导航104</a></li>
+            <li class="item"><a href="">导航105</a></li>
+            <li class="item"><a href="">导航106</a></li>
+            <li class="item"><a href="">导航107</a></li>
+        </ul>
+        ul.list>li.item*8>a{导航$$$$@100}
+        <ul class="list">
+            <li class="item"><a href="">导航0100</a></li>
+            <li class="item"><a href="">导航0101</a></li>
+            <li class="item"><a href="">导航0102</a></li>
+            <li class="item"><a href="">导航0103</a></li>
+            <li class="item"><a href="">导航0104</a></li>
+            <li class="item"><a href="">导航0105</a></li>
+            <li class="item"><a href="">导航0106</a></li>
+            <li class="item"><a href="">导航0107</a></li>
+        </ul>
+</body>
+</html>
